@@ -1,0 +1,2 @@
+﻿Skuno,CodeName,Sysserailno,TestBy,Eventpoint,FailSymptom,Rootcause,FailureCode,Actioncode,Process,Cserialno,Location,Repairby,lasteditby,Repairdate,Componentcode,Vendorcode,Datacode,Lotcode,Solution,Description,Partdes,Workorderno
+"73-15294-02","73-15294-02ALTA                                   ","FOC22015M8Z","WEI183g4545707","ICT","failed analog test","SOLDER_OPEN","Nonwetting","REPAIRED  ","SMT TOP","FOC22015M8Z","LED2","F1332893","F1332893","2018/1/10 22:29:04","25-0763-02","LITE-ON","1746","1731007531","","","LED,SING,G,SM,0603,NRES","002384004487        "

@@ -1,0 +1,2 @@
+﻿Skuno,CodeName,Sysserailno,TestBy,Eventpoint,FailSymptom,Rootcause,FailureCode,Actioncode,Process,Cserialno,Location,Repairby,lasteditby,Repairdate,Componentcode,Vendorcode,Datacode,Lotcode,Solution,Description,Partdes,Workorderno
+"73-15280-03","73-15280-03,PCA,MBRD,FM                           ","FOC22020PR0","prodg4709053","PCBP2","LINK_STATUS_CHECK","","","          ","","","","","F1322284","2018/1/23 22:18:33","","","","","","","","002384004741        "

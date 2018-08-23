@@ -1,0 +1,2 @@
+﻿Skuno,CodeName,Sysserailno,TestBy,Eventpoint,FailSymptom,Rootcause,FailureCode,Actioncode,Process,Cserialno,Location,Repairby,lasteditby,Repairdate,Componentcode,Vendorcode,Datacode,Lotcode,Solution,Description,Partdes,Workorderno
+"73-17449-03","73-17449-03,FABRIC, SHAWNEE                       ","FOC22014WMM","prodg4707712","PCB2C","DIAG_LAX:TRF_CH","","","NONE      ","SMT TOP","","","sfcautorepair","sfcautorepair","2018/1/13 07:40:09","","","","","","","","002384004561        "

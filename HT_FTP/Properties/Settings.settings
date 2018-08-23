@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FTP_NEW.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FTP_NEW_SNTPMail_SmtpService" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://10.132.48.76/smtp/smtpservice.asmx</Value>
+    </Setting>
+    <Setting Name="FTP_NEW_smtpservice_SmtpService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.132.48.76/smtp/smtpservice.asmx</Value>
+    </Setting>
+    <Setting Name="FTP_NEW_WebSmtpMail_RemoteMail" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.157.20.62/Mailservice/RemoteMail.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

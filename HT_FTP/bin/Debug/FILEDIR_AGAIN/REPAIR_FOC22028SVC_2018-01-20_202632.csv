@@ -1,0 +1,2 @@
+﻿Skuno,CodeName,Sysserailno,TestBy,Eventpoint,FailSymptom,Rootcause,FailureCode,Actioncode,Process,Cserialno,Location,Repairby,lasteditby,Repairdate,Componentcode,Vendorcode,Datacode,Lotcode,Solution,Description,Partdes,Workorderno
+"73-17250-02","73-17250-02 KEYSTONE                              ","FOC22028SVC","prodg4722541","PCBP2","POWERING_ON_CELL_25","NDF","NDF","NONE      ","SMT TOP","","NDF","SYSTEM","SYSTEM","2018/1/20 21:02:56","","","","","","","","002384005029        "

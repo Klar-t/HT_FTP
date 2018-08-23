@@ -1,0 +1,2 @@
+﻿Skuno,CodeName,Sysserailno,TestBy,Eventpoint,FailSymptom,Rootcause,FailureCode,Actioncode,Process,Cserialno,Location,Repairby,lasteditby,Repairdate,Componentcode,Vendorcode,Datacode,Lotcode,Solution,Description,Partdes,Workorderno
+"73-16506-02","73-16506-02SHASTA                                 ","FOC22032DRX","prodg4709053","PCBP2","RE-VERIFY_POWER_MODULE","","","NONE      ","SMT TOP","","","sfcautorepair","sfcautorepair","2018/1/22 07:40:08","","","","","","","","002384005227        "

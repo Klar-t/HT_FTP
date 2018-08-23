@@ -1,0 +1,2 @@
+﻿Skuno,CodeName,Sysserailno,TestBy,Eventpoint,FailSymptom,Rootcause,FailureCode,Actioncode,Process,Cserialno,Location,Repairby,lasteditby,Repairdate,Componentcode,Vendorcode,Datacode,Lotcode,Solution,Description,Partdes,Workorderno
+"73-17346-01","73-17346-01_ CHICOPEE CR                          ","FOC22029P2D","prodf4420781","PCBP2","DIAG_POWER:AVS_CHECK","","","NONE      ","SMT TOP","","","sfcautorepair","sfcautorepair","2018/1/20 07:40:10","","","","","","","","002384005153        "

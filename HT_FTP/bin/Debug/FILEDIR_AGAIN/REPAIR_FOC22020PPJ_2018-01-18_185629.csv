@@ -1,0 +1,2 @@
+﻿Skuno,CodeName,Sysserailno,TestBy,Eventpoint,FailSymptom,Rootcause,FailureCode,Actioncode,Process,Cserialno,Location,Repairby,lasteditby,Repairdate,Componentcode,Vendorcode,Datacode,Lotcode,Solution,Description,Partdes,Workorderno
+"73-17450-03","73-17450-03,MT KATO                               ","FOC22020PPJ","prodg4493292","PCB2C","DIAG_LAX:L1_HL","NDF","NDF","NONE      ","SMT TOP","","NDF","SYSTEM","SYSTEM","2018/1/17 09:41:58","","","","","","","","002384004735        "

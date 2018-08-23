@@ -1,0 +1,2 @@
+﻿Skuno,CodeName,Sysserailno,TestBy,Eventpoint,FailSymptom,Rootcause,FailureCode,Actioncode,Process,Cserialno,Location,Repairby,lasteditby,Repairdate,Componentcode,Vendorcode,Datacode,Lotcode,Solution,Description,Partdes,Workorderno
+"73-15280-03","73-15280-03,PCA,MBRD,FM                           ","FOC22020PQY","prod SENDTFDownload","PCBP2","SEND_AT_SIGNATURE","NDF","NDF","NONE      ","SMT TOP","","NDF","SYSTEM","SYSTEM","2018/1/21 01:54:42","","","","","","","","002384004741        "

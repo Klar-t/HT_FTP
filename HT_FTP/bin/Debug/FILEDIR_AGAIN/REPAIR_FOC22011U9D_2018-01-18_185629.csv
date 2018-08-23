@@ -1,0 +1,2 @@
+﻿Skuno,CodeName,Sysserailno,TestBy,Eventpoint,FailSymptom,Rootcause,FailureCode,Actioncode,Process,Cserialno,Location,Repairby,lasteditby,Repairdate,Componentcode,Vendorcode,Datacode,Lotcode,Solution,Description,Partdes,Workorderno
+"73-15652-02","73-15652-02MT ROSE                                ","FOC22011U9D","prodg4707712","PCB2C","DIAG_TRIDENT:HG_TRF_CH","NDF","NDF","NONE      ","SMT TOP","","NDF","SYSTEM","SYSTEM","2018/1/17 09:57:18","","","","","","","","002384004312        "

@@ -1,0 +1,10 @@
+G:\QualityTeam\yyz\LHDOMII\DOMII\DOMII\bin\Debug\DOMII.exe
+G:\QualityTeam\yyz\LHDOMII\DOMII\DOMII\bin\Debug\DOMII.pdb
+G:\QualityTeam\yyz\LHDOMII\DOMII\DOMII\bin\Debug\IrisSkin4.dll
+G:\QualityTeam\yyz\LHDOMII\DOMII\DOMII\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\QualityTeam\yyz\LHDOMII\DOMII\DOMII\obj\x86\Debug\DOMII.LHDOMII.resources
+G:\QualityTeam\yyz\LHDOMII\DOMII\DOMII\obj\x86\Debug\DOMII.Properties.Resources.resources
+G:\QualityTeam\yyz\LHDOMII\DOMII\DOMII\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\QualityTeam\yyz\LHDOMII\DOMII\DOMII\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\QualityTeam\yyz\LHDOMII\DOMII\DOMII\obj\x86\Debug\DOMII.exe
+G:\QualityTeam\yyz\LHDOMII\DOMII\DOMII\obj\x86\Debug\DOMII.pdb

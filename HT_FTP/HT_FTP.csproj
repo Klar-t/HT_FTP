@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{215861FD-8F2F-4B54-A286-F01152027ABF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HT_FTP</RootNamespace>
+    <AssemblyName>HT_FTP</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>http://localhost/FTP_NEW/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.Domino">
+      <HintPath>..\..\..\HumitureAlarm\HumitureAlert\HumitureAlarm\bin\Debug\Interop.Domino.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="NotesSendMail, Version=1.0.2155.21719, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\HumitureAlarm\HumitureAlert\HumitureAlarm\bin\Debug\NotesSendMail.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HT_FTP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HT_FTP.Designer.cs">
+      <DependentUpon>HT_FTP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FtpUpDown.cs" />
+    <Compile Include="OperateDB.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Web References\smtpservice\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="HT_FTP.resx">
+      <DependentUpon>HT_FTP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Skins\Calmness.ssk" />
+    <None Include="Skins\CalmnessColor1.ssk" />
+    <None Include="Skins\CalmnessColor2.ssk" />
+    <None Include="Skins\DeepCyan.ssk" />
+    <None Include="Skins\DeepGreen.ssk" />
+    <None Include="Skins\DeepOrange.ssk" />
+    <None Include="Skins\DiamondBlue.ssk" />
+    <None Include="Skins\DiamondGreen.ssk" />
+    <None Include="Skins\DiamondOlive.ssk" />
+    <None Include="Skins\DiamondPurple.ssk" />
+    <None Include="Skins\DiamondRed.ssk" />
+    <None Include="Skins\Eighteen.ssk" />
+    <None Include="Skins\EighteenColor1.ssk" />
+    <None Include="Skins\EighteenColor2.ssk" />
+    <None Include="Skins\Emerald.ssk" />
+    <None Include="Skins\EmeraldColor1.ssk" />
+    <None Include="Skins\EmeraldColor2.ssk" />
+    <None Include="Skins\EmeraldColor3.ssk" />
+    <None Include="Skins\GlassBrown.ssk" />
+    <None Include="Skins\GlassGreen.ssk" />
+    <None Include="Skins\GlassOrange.ssk" />
+    <None Include="Skins\Longhorn.ssk" />
+    <None Include="Skins\MacOS.ssk" />
+    <None Include="Skins\Midsummer.ssk" />
+    <None Include="Skins\MidsummerColor1.ssk" />
+    <None Include="Skins\MidsummerColor2.ssk" />
+    <None Include="Skins\MidsummerColor3.ssk" />
+    <None Include="Skins\mp10.ssk" />
+    <None Include="Skins\mp10green.ssk" />
+    <None Include="Skins\mp10maroon.ssk" />
+    <None Include="Skins\mp10mulberry.ssk" />
+    <None Include="Skins\mp10pink.ssk" />
+    <None Include="Skins\mp10purple.ssk" />
+    <None Include="Skins\MSN.ssk" />
+    <None Include="Skins\office2007.ssk" />
+    <None Include="Skins\OneBlue.ssk" />
+    <None Include="Skins\OneCyan.ssk" />
+    <None Include="Skins\OneGreen.ssk" />
+    <None Include="Skins\OneOrange.ssk" />
+    <None Include="Skins\Page.ssk" />
+    <None Include="Skins\PageColor1.ssk" />
+    <None Include="Skins\PageColor2.ssk" />
+    <None Include="Skins\RealOne.ssk" />
+    <None Include="Skins\Silver.ssk" />
+    <None Include="Skins\SilverColor1.ssk" />
+    <None Include="Skins\SilverColor2.ssk" />
+    <None Include="Skins\SportsBlack.ssk" />
+    <None Include="Skins\SportsBlue.ssk" />
+    <None Include="Skins\SportsCyan.ssk" />
+    <None Include="Skins\SportsGreen.ssk" />
+    <None Include="Skins\SportsOrange.ssk" />
+    <None Include="Skins\SteelBlack.ssk" />
+    <None Include="Skins\SteelBlue.ssk" />
+    <None Include="Skins\vista1.ssk" />
+    <None Include="Skins\vista1_green.ssk" />
+    <None Include="Skins\Vista2_color1.ssk" />
+    <None Include="Skins\Vista2_color2.ssk" />
+    <None Include="Skins\Vista2_color3.ssk" />
+    <None Include="Skins\Vista2_color4.ssk" />
+    <None Include="Skins\Vista2_color5.ssk" />
+    <None Include="Skins\Vista2_color6.ssk" />
+    <None Include="Skins\Vista2_color7.ssk" />
+    <None Include="Skins\vistaGreen.ssk" />
+    <None Include="Skins\Warm.ssk" />
+    <None Include="Skins\WarmColor1.ssk" />
+    <None Include="Skins\WarmColor2.ssk" />
+    <None Include="Skins\WarmColor3.ssk" />
+    <None Include="Skins\Wave.ssk" />
+    <None Include="Skins\WaveColor1.ssk" />
+    <None Include="Skins\WaveColor2.ssk" />
+    <None Include="Skins\XPBlue.ssk" />
+    <None Include="Skins\XPGreen.ssk" />
+    <None Include="Skins\XPOrange.ssk" />
+    <None Include="Skins\XPSilver.ssk" />
+    <None Include="Web References\smtpservice\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\smtpservice\smtpservice.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ICO\0.ico" />
+    <Content Include="ICO\1.ico" />
+    <Content Include="ICO\10.ico" />
+    <Content Include="ICO\11.ico" />
+    <Content Include="ICO\12.ico" />
+    <Content Include="ICO\13.ico" />
+    <Content Include="ICO\14.ico" />
+    <Content Include="ICO\15.ico" />
+    <Content Include="ICO\16.ico" />
+    <Content Include="ICO\17.ico" />
+    <Content Include="ICO\18.ico" />
+    <Content Include="ICO\19.ico" />
+    <Content Include="ICO\2.ico" />
+    <Content Include="ICO\20.ico" />
+    <Content Include="ICO\21.ico" />
+    <Content Include="ICO\22.ico" />
+    <Content Include="ICO\23.ico" />
+    <Content Include="ICO\3.ico" />
+    <Content Include="ICO\4.ico" />
+    <Content Include="ICO\5.ico" />
+    <Content Include="ICO\6.ico" />
+    <Content Include="ICO\7.ico" />
+    <Content Include="ICO\8.ico" />
+    <Content Include="ICO\9.ico" />
+    <None Include="Web References\smtpservice\smtpservice.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://10.132.48.76/smtp/smtpservice.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\smtpservice\</RelPath>
+      <UpdateFromURL>http://10.132.48.76/smtp/smtpservice.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>FTP_NEW_smtpservice_SmtpService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

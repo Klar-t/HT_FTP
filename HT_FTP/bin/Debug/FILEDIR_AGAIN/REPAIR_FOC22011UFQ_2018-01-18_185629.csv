@@ -1,0 +1,2 @@
+﻿Skuno,CodeName,Sysserailno,TestBy,Eventpoint,FailSymptom,Rootcause,FailureCode,Actioncode,Process,Cserialno,Location,Repairby,lasteditby,Repairdate,Componentcode,Vendorcode,Datacode,Lotcode,Solution,Description,Partdes,Workorderno
+"73-15652-02","73-15652-02MT ROSE                                ","FOC22011UFQ","prodf9260358","PCBP2","CHECK_ONLINE_STATUS_0X03","NDF","NDF","NONE      ","SMT TOP","","NDF","SYSTEM","SYSTEM","2018/1/11 23:18:56","","","","","","","","002384004312        "

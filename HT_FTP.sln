@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTP_NEW", "HT_FTP\HT_FTP.csproj", "{215861FD-8F2F-4B54-A286-F01152027ABF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{215861FD-8F2F-4B54-A286-F01152027ABF}.Debug|x86.ActiveCfg = Debug|x86
+		{215861FD-8F2F-4B54-A286-F01152027ABF}.Debug|x86.Build.0 = Debug|x86
+		{215861FD-8F2F-4B54-A286-F01152027ABF}.Release|x86.ActiveCfg = Release|x86
+		{215861FD-8F2F-4B54-A286-F01152027ABF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
