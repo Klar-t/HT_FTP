@@ -77,4 +77,4 @@ public void Upload(string filename) //上面的代码实现了从ftp服务器上
             }
         }
 ```
- -Delete（） 刪除指定的檔案  刪除本地保存文件
+ - Delete（） 刪除指定的檔案  刪除本地保存文件
