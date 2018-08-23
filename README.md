@@ -1,6 +1,6 @@
 # HT_FTP
 #### HT_FTP程序
-#### [SVN 代碼地址](http://10.132.37.75/svn/codedb/HT_FTP-SAVBU)
+#### [SVN 代碼地址](https://github.com/Klar-t/HT_FTP)
 ##### 程序邏輯：
 - 从数据库中查询数据 生成CSV文件 上传FTP服务器
 
