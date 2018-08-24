@@ -1,2 +1,0 @@
-﻿Skuno,CodeName,Sysserailno,TestBy,Eventpoint,FailSymptom,Rootcause,FailureCode,Actioncode,Process,Cserialno,Location,Repairby,lasteditby,Repairdate,Componentcode,Vendorcode,Datacode,Lotcode,Solution,Description,Partdes,Workorderno
-"73-17450-03","73-17450-03,MT KATO                               ","FOC21434BF6","prodf9260358","PCBP2","CHECK_BIOS_AND_FPGA","","","NONE      ","SMT TOP","","","sfcautorepair","sfcautorepair","2018/1/9 07:40:10","","","","","","","","002384001034        "

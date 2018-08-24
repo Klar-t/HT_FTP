@@ -1,2 +1,0 @@
-﻿Skuno,CodeName,Sysserailno,TestBy,Eventpoint,FailSymptom,Rootcause,FailureCode,Actioncode,Process,Cserialno,Location,Repairby,lasteditby,Repairdate,Componentcode,Vendorcode,Datacode,Lotcode,Solution,Description,Partdes,Workorderno
-"73-16506-02","73-16506-02SHASTA                                 ","FOC22032DTM","prodg4707712","PCB2C","LINK_STATUS_CHECK","","","NONE      ","SMT TOP","","","sfcautorepair","sfcautorepair","2018/1/22 07:40:08","","","","","","","","002384005227        "

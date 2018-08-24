@@ -1,2 +1,0 @@
-﻿Skuno,CodeName,Sysserailno,TestBy,Eventpoint,FailSymptom,Rootcause,FailureCode,Actioncode,Process,Cserialno,Location,Repairby,lasteditby,Repairdate,Componentcode,Vendorcode,Datacode,Lotcode,Solution,Description,Partdes,Workorderno
-"73-17450-03","73-17450-03,MT KATO                               ","FOC22020PPA","prod INSTTFDownload","PCBP2","INSTALL_CLIIP","NDF","NDF","NONE      ","SMT TOP","","NDF","SYSTEM","SYSTEM","2018/1/13 17:22:10","","","","","","","","002384004735        "

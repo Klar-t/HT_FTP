@@ -1,2 +1,0 @@
-﻿Skuno,CodeName,Sysserailno,TestBy,Eventpoint,FailSymptom,Rootcause,FailureCode,Actioncode,Process,Cserialno,Location,Repairby,lasteditby,Repairdate,Componentcode,Vendorcode,Datacode,Lotcode,Solution,Description,Partdes,Workorderno
-"73-16709-01","73-16709-01,LINECARD, SUNRIDGE                    ","FOC22029PE3","prodg4709053","PCBP2","CHECK_ONLINE_STATUS_0X04","","","NONE      ","SMT TOP","","","sfcautorepair","sfcautorepair","2018/1/20 07:40:10","","","","","","","","002384005089        "

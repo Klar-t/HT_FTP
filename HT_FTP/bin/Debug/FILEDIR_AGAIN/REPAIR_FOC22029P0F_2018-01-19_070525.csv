@@ -1,2 +1,0 @@
-﻿Skuno,CodeName,Sysserailno,TestBy,Eventpoint,FailSymptom,Rootcause,FailureCode,Actioncode,Process,Cserialno,Location,Repairby,lasteditby,Repairdate,Componentcode,Vendorcode,Datacode,Lotcode,Solution,Description,Partdes,Workorderno
-"73-15878-01","73-15878-01 HONEYCOMB                             ","FOC22029P0F","prodf9260358","PCBP2","CHECK_ONLINE_STATUS_0X08","","","NONE      ","SMT TOP","","","sfcautorepair","sfcautorepair","2018/1/19 07:40:16","","","","","","","","002384005151        "
